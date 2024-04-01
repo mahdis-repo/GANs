@@ -14,7 +14,7 @@ This repo is a survey of different GAN architectures which are implemented in Py
 
 ### Deep Convolutional GAN (DCGAN)
 
-- A slightly more sophisticated method of implementing GANs is using Convolutions. In another [repo]() I have compared how using Artificial Neural Networks vs. Convolutional Neural Networks for digit classification (the same MNIST dataset) have different accuracy outcomes and how CNNs are more efficient and more accurate since they:
+- A slightly more sophisticated method of implementing GANs is using Convolutions. In another [repo](https://github.com/mahdis-repo/MNIST-Classification-SupervisedLearning) I have compared how using Artificial Neural Networks vs. Convolutional Neural Networks for digit classification (the same MNIST dataset) have different accuracy outcomes and how CNNs are more efficient and more accurate since they:
   
     - Preserve the information of neighboring pixels
     - Have less parameters to train (which is less prune to overfitting)
