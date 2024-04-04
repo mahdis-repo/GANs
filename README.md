@@ -4,11 +4,12 @@ This repo is a survey of different GAN architectures which are implemented in Py
 
 ### Simple Dense GAN
 
-- Vanilla GANs are tricky to get to converge. Interestingly, in the very first try my [simple dense GAN](https://github.com/mahdis-repo/GANs/blob/main/First_Dense_GAN_1_MNIST.ipynb) didn't converge and the discriminator won! Since it got pretty good, the generator could'nt find a mapping for guassian noise to the latent distribution of the MNIST dataset.
+- Vanilla GANs are tricky to get to converge. Here is the [implementation in tensorflow]() vs. [implementation in PyTorch]().
 
-  ![image](https://github.com/mahdis-repo/GANs/assets/145799768/9261ca1f-a283-4f63-9f85-59ed0c0d425e)
+ ![image](https://github.com/mahdis-repo/GANs/assets/145799768/35b0cd5b-60cc-491f-81e5-f590425636bc)
 
 
+As you can see the generator is creating pretty desent 1s and 7s and 9s. To prevent this bias we can take a number of measures, from changing the activation function from 'ReLU' to 'SeLU' to changing the network architecture by using CNNs + Upsampling.
 
 
 
@@ -18,4 +19,7 @@ This repo is a survey of different GAN architectures which are implemented in Py
   
     - Preserve the information of neighboring pixels
     - Have less parameters to train (which is less prune to overfitting)
-  
+
+  Here is the implemenation of [DCGAN in Tensorflow]().
+
+![image](https://github.com/mahdis-repo/GANs/assets/145799768/3e956af5-5b21-4c7e-951f-99f72a782dcf)
